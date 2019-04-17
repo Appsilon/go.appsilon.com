@@ -1,0 +1,6 @@
+Package: shiny.users
+Version: 1.0
+Imports: purrr, shiny (>= 1.0.5), shiny.semantic, httr, glue
+Suggests: testthat, lintr, tibble, dplyr
+MD5sum: 9d011cd64f08443ae87c111a859b0ee1
+NeedsCompilation: no
