@@ -6,10 +6,26 @@
   <body>
     <script>
       var url = new URL(window.location.href);
-      var c = url.searchParams.get("goto");
-      console.log(c);
+      var goto = url.searchParams.get("goto");
 
-      window.location.href = "https://docs.google.com/spreadsheets/d/16_-NFbcdb7-a0Xzo7nGWFOO_bgqJIYSvH9GwIply4ao/edit#gid=1250935856&range=IK1"
+      var address = {
+        "jan": "B1",
+        "feb": "AG1",
+        "mar": "BI1",
+        "apr": "CN1",
+        "may": "DR1",
+        "jun": "EW1",
+        "jul": "GA1",
+        "aug": "HF1",
+        "sep": "IK1",
+        "oct": "JO1",
+        "nov": "KT1",
+        "dec": "LX1"
+      }
+
+      var appendix = goto in address ? "&range=" + address[goto] : "";
+
+      window.location.href = "https://docs.google.com/spreadsheets/d/16_-NFbcdb7-a0Xzo7nGWFOO_bgqJIYSvH9GwIply4ao/edit#gid=1250935856" + appendix;
     </script>
   </body>
 </html>
