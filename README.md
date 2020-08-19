@@ -1,3 +1,9 @@
+# [DEPRECATED] Moved to hosted Yourls URL shortener
+
+Go.appsilon.com has been moved our (Yourls service)[https://yourls.org/] hosted on AWS Lighsail. URL shortening is available under https://go.appsilon.com/admin (credentials available in 1password team vault). User readme moved to Outline: https://appsilon.getoutline.com/doc/tools-VNEKJXIy09
+
+----------------------
+
 Appsilon URL tool: https://go.appsilon.com/link/
 
 Just add new directory with proper index.html file.
